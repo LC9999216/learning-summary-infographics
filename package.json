@@ -1,0 +1,30 @@
+{
+  "name": "study-summary-system",
+  "version": "1.0.0",
+  "description": "学习资料浓缩总结+信息图生成系统",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test tests/**/*.test.js"
+  },
+  "keywords": [
+    "summary",
+    "infographic",
+    "ocr",
+    "pdf",
+    "ai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.65",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "mammoth": "^1.7.2",
+    "officeparser": "^1.2.0",
+    "pdf-parse": "^1.1.1",
+    "tesseract.js": "^5.1.1"
+  }
+}

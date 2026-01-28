@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(copy:*)",
+      "Bash(npm start .input生产与交付方案.pdf)",
+      "Bash(DEBUG=true node:*)",
+      "Bash(node:*)"
+    ]
+  }
+}
